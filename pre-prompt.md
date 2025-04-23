@@ -1,9 +1,5 @@
 # LEARNING SESSION FRAMEWORK
 
-<div style="position: relative; padding: 15px; background-color: #f6f8fa; border-radius: 6px; margin-bottom: 16px;">
-  <button onclick="copyToClipboard()" style="position: absolute; top: 10px; right: 10px; padding: 6px 12px; background-color: #0366d6; color: white; border: none; border-radius: 3px; cursor: pointer;">Copy to Clipboard</button>
-  <div id="copyContent">
-  
 ## Purpose
 This framework guides your self-directed exploration of Large Language Models (LLMs). Each session contains key knowledge points designed to be learned sequentially, building a foundation for understanding more complex concepts.
 
@@ -41,21 +37,3 @@ Your learning process will be evaluated across five dimensions:
 
 ## Getting Started
 Begin by identifying which module and session you're exploring, then work through the concepts sequentially, building your understanding step by step.
-  </div>
-</div>
-
-<script>
-function copyToClipboard() {
-  const text = document.getElementById('copyContent').innerText;
-  navigator.clipboard.writeText(text).then(() => {
-    const button = document.querySelector('button');
-    const originalText = button.innerText;
-    button.innerText = 'Copied!';
-    setTimeout(() => {
-      button.innerText = originalText;
-    }, 2000);
-  }).catch(err => {
-    console.error('Failed to copy: ', err);
-  });
-}
-</script>
