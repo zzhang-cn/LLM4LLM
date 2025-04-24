@@ -7,7 +7,9 @@
 
 ## Knowledge Point Engagement Assessment
 
-### Knowledge Point 1: [TITLE OF KNOWLEDGE POINT]
+[REPEAT FOR EACH KNOWLEDGE POINT IN THE SESSION]
+
+### Knowledge Point [#]: [TITLE OF KNOWLEDGE POINT]
 - **Content Coverage**: [Minimal / Partial / Complete]
 - **Engagement Level**: [Passive / Basic / Active / In-depth]
 - **Question Decomposition**: [0-5] - How effectively you broke down this concept into manageable components
@@ -15,17 +17,6 @@
 - **Conceptual Understanding**: [0-5] - Your understanding beyond surface-level facts for this concept
 - **Specific Examples**: [Examples of strong engagement or areas for improvement]
 - **Recommendations**: [Specific suggestions for deepening understanding]
-
-### Knowledge Point 2: [TITLE OF KNOWLEDGE POINT]
-- **Content Coverage**: [Minimal / Partial / Complete]
-- **Engagement Level**: [Passive / Basic / Active / In-depth]
-- **Question Decomposition**: [0-5] - How effectively you broke down this concept into manageable components
-- **Critical Thinking**: [0-5] - How you reasoned through this concept before seeking explanations
-- **Conceptual Understanding**: [0-5] - Your understanding beyond surface-level facts for this concept
-- **Specific Examples**: [Examples of strong engagement or areas for improvement]
-- **Recommendations**: [Specific suggestions for deepening understanding]
-
-[REPEAT FOR EACH KNOWLEDGE POINT]
 
 ## Connection-Making Assessment
 - **Between Knowledge Points**: [0-5] - How well you connected concepts within this session
@@ -50,22 +41,23 @@
 
 ### Score Summary Table
 
-| Dimension | KP1 | KP2 | KP3 | KP4 | KP5 | KP6 | Overall |
-|-----------|-----|-----|-----|-----|-----|-----|---------|
-| Question Decomposition | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [Avg /5] |
-| Critical Thinking | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [Avg /5] |
-| Conceptual Understanding | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [Avg /5] |
-| Connection-Making | — | — | — | — | — | — | [Overall /5] |
-| Reflection Quality | — | — | — | — | — | — | [Overall /5] |
-| **Knowledge Point Average** | [Avg] | [Avg] | [Avg] | [Avg] | [Avg] | [Avg] | **[TOTAL /25]** |
+| Dimension | [Create columns for each KP dynamically] | Overall |
+|-----------|------------------------------------------|---------|
+| Question Decomposition | [Add scores for each KP] | [Avg /5] |
+| Critical Thinking | [Add scores for each KP] | [Avg /5] |
+| Conceptual Understanding | [Add scores for each KP] | [Avg /5] |
+| Connection-Making | — | [Overall /5] |
+| Reflection Quality | — | [Overall /5] |
+| **Knowledge Point Average** | [Add average for each KP] | **[TOTAL /25]** |
 
 ### Mastery Level
+- [0-4] Pre-Introductory Engagement: Primarily passive observation
 - [5-9] Introductory Understanding: Basic familiarity with concepts
 - [10-14] Developing Understanding: Growing comprehension with some connections
 - [15-19] Proficient Understanding: Solid grasp with meaningful connections
 - [20-25] Advanced Understanding: Deep comprehension with creative applications
 
-**Note for Module 1, Session 1: First-time students typically score in the 5-8 range as they are just beginning their learning journey. Scores over 10 in a first session would indicate exceptional engagement or prior knowledge.**
+**Note for first sessions: First-time students typically score in the 0-4 range when primarily observing, and 5-8 range when beginning to actively engage with the material.**
 
 ### Key Strengths
 - [Area where the student showed particular understanding or engagement]
