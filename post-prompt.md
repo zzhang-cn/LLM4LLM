@@ -5,73 +5,81 @@
 - Session Completed: [SESSION NUMBER]
 - Date: [CURRENT DATE]
 
-## Performance Analysis
-Based on our conversation, here's an evaluation of your learning across the five key dimensions:
+## Knowledge Point Engagement Assessment
 
-### Question Decomposition: [SCORE/5]
-Assessment of how effectively you broke down complex questions into manageable components.
-- Strong examples: [Specific examples from the conversation]
-- Areas for growth: [Specific opportunities from the conversation]
+### Knowledge Point 1: [TITLE OF KNOWLEDGE POINT]
+- **Content Coverage**: [Minimal / Partial / Complete]
+- **Engagement Level**: [Passive / Basic / Active / In-depth]
+- **Question Decomposition**: [0-5] - How effectively you broke down this concept into manageable components
+- **Critical Thinking**: [0-5] - How you reasoned through this concept before seeking explanations
+- **Conceptual Understanding**: [0-5] - Your understanding beyond surface-level facts for this concept
+- **Specific Examples**: [Examples of strong engagement or areas for improvement]
+- **Recommendations**: [Specific suggestions for deepening understanding]
 
-### Critical Thinking: [SCORE/5]
-Evaluation of your attempts to reason through concepts before seeking explanations.
-- Strong examples: [Specific examples from the conversation]
-- Areas for growth: [Specific opportunities from the conversation]
+### Knowledge Point 2: [TITLE OF KNOWLEDGE POINT]
+- **Content Coverage**: [Minimal / Partial / Complete]
+- **Engagement Level**: [Passive / Basic / Active / In-depth]
+- **Question Decomposition**: [0-5] - How effectively you broke down this concept into manageable components
+- **Critical Thinking**: [0-5] - How you reasoned through this concept before seeking explanations
+- **Conceptual Understanding**: [0-5] - Your understanding beyond surface-level facts for this concept
+- **Specific Examples**: [Examples of strong engagement or areas for improvement]
+- **Recommendations**: [Specific suggestions for deepening understanding]
 
-### Connection-Making: [SCORE/5]
-Analysis of how well you connected new concepts to previously learned material.
-- Strong examples: [Specific examples from the conversation] 
-- Areas for growth: [Specific opportunities from the conversation]
+[REPEAT FOR EACH KNOWLEDGE POINT]
 
-### Conceptual Understanding: [SCORE/5]
-Assessment of your understanding beyond surface-level facts.
-- Strong examples: [Specific examples from the conversation]
-- Areas for growth: [Specific opportunities from the conversation]
+## Connection-Making Assessment
+- **Between Knowledge Points**: [0-5] - How well you connected concepts within this session
+- **With Previous Sessions**: [0-5] - How well you connected to material from earlier sessions (if applicable)
+- **Specific Examples**: [Examples of connections made or opportunities missed]
+- **Recommendations**: [Specific suggestions for improving connections]
 
-### Reflection Quality: [SCORE/5]
-Evaluation of the thoughtfulness of your summaries and reflections.
-- Strong examples: [Specific examples from the conversation]
-- Areas for growth: [Specific opportunities from the conversation]
+## Reflection Quality Assessment
+- **Depth of Reflection**: [0-5] - How thoughtfully you summarized and reflected on your learning
+- **Application Awareness**: [0-5] - How well you identified potential applications or implications
+- **Specific Examples**: [Examples of reflections or opportunities missed]
+- **Recommendations**: [Specific suggestions for more meaningful reflection]
 
-## Engagement Metrics
-
-### Knowledge Point Coverage: [PERCENTAGE]
-Percentage of key knowledge points covered in this session.
-- Knowledge points thoroughly explored: [LIST]
-- Knowledge points briefly covered: [LIST]
-- Knowledge points not addressed: [LIST]
-
-### Learning Approach Analysis
-Assessment of how you utilized available learning tools and options:
-- Use of "deeper" exploration: [FREQUENCY AND EFFECTIVENESS]
-- Engagement with practice opportunities: [FREQUENCY AND EFFECTIVENESS]
-- Utilization of academic references and visuals: [FREQUENCY AND EFFECTIVENESS]
-- Exploration of advanced materials: [FREQUENCY AND EFFECTIVENESS]
+## Learning Tools Utilization
+- **"Deeper" Exploration**: [None / Limited / Moderate / Extensive] - Usage of deeper dives
+- **Practice Opportunities**: [None / Limited / Moderate / Extensive] - Engagement with exercises
+- **Academic References**: [None / Limited / Moderate / Extensive] - Utilization of papers/visuals
+- **Advanced Materials**: [None / Limited / Moderate / Extensive] - Exploration of challenging content
+- **Recommendations**: [Specific suggestions for better utilizing learning tools]
 
 ## Overall Assessment
 
-### Total Score: [TOTAL/25]
+### Score Summary Table
+
+| Dimension | KP1 | KP2 | KP3 | KP4 | KP5 | KP6 | Overall |
+|-----------|-----|-----|-----|-----|-----|-----|---------|
+| Question Decomposition | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [Avg /5] |
+| Critical Thinking | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [Avg /5] |
+| Conceptual Understanding | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [0-5] | [Avg /5] |
+| Connection-Making | — | — | — | — | — | — | [Overall /5] |
+| Reflection Quality | — | — | — | — | — | — | [Overall /5] |
+| **Knowledge Point Average** | [Avg] | [Avg] | [Avg] | [Avg] | [Avg] | [Avg] | **[TOTAL /25]** |
 
 ### Mastery Level
-- [5-10] Introductory Understanding: Basic familiarity with concepts
-- [11-15] Developing Understanding: Growing comprehension with some connections
-- [16-20] Proficient Understanding: Solid grasp with meaningful connections
-- [21-25] Advanced Understanding: Deep comprehension with creative applications
+- [5-9] Introductory Understanding: Basic familiarity with concepts
+- [10-14] Developing Understanding: Growing comprehension with some connections
+- [15-19] Proficient Understanding: Solid grasp with meaningful connections
+- [20-25] Advanced Understanding: Deep comprehension with creative applications
 
-### Key Insights Demonstrated:
-- [Important concept the student demonstrated understanding of]
-- [Important concept the student demonstrated understanding of]
-- [Important concept the student demonstrated understanding of]
+**Note for Module 1, Session 1: First-time students typically score in the 5-8 range as they are just beginning their learning journey. Scores over 10 in a first session would indicate exceptional engagement or prior knowledge.**
 
-### Areas for Growth:
-- [Concept that could benefit from further exploration]
-- [Concept that could benefit from further exploration]
+### Key Strengths
+- [Area where the student showed particular understanding or engagement]
+- [Area where the student showed particular understanding or engagement]
 
-### Next Session Readiness:
+### Priority Areas for Growth
+- [Most important concept that could benefit from further exploration]
+- [Most important concept that could benefit from further exploration]
+
+### Next Session Readiness
 [ASSESSMENT OF READINESS TO PROCEED]
 - Recommended preparation before next session: [SPECIFIC RECOMMENDATIONS]
 
-### Learning Pathway Recommendations:
-- [Recommendations for the next unit/questions to explore]
+### Learning Pathway Recommendations
+- [Recommendations for approaching the next session]
 - [Suggested resources for further exploration]
 - [Specific concepts to revisit if necessary]
