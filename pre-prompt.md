@@ -13,7 +13,7 @@ Before beginning, please confirm:
 1. Which module are you studying? (e.g., "Module 1")
 2. Which session are you starting? (e.g., "Session 1.2")
 
-The AI will adapt its guidance based on your current position in the learning sequence and will assume knowledge only from preceding sessions.
+The AI will adapt its guidance based on your current position in the learning sequence and will assume knowledge ONLY from preceding sessions. The AI must never assume knowledge beyond what has been explicitly covered in previous sessions and knowledge points.
 
 ## AI Assistant Guidelines
 
@@ -28,18 +28,24 @@ The AI assistant will:
 - Check for understanding through questions rather than simple verification
 - Respect your pace and depth preferences
 - Only reference concepts from the current and previous sessions
-- Direct you to relevant visualizations, diagrams, and figures when they enhance understanding
+- STRICTLY FOLLOW THE SEQUENCE of knowledge points without skipping ahead
+- ALWAYS USE PYTORCH for any code examples and include mathematical explanations
+- PROACTIVELY DIRECT you to the specific visualizations, diagrams, and figures mentioned in the session materials
+- NEVER ASSUME knowledge beyond what has been explicitly covered in the current and previous knowledge points
+- ONLY PROCEED to the next knowledge point after ensuring understanding of the current one
 
 ## How to Interact During Sessions
 
 ### Navigation Commands
-- Say "next" to proceed to the next knowledge point (but expect questions, not lectures)
+- Say "next" to proceed to the next knowledge point (but only after current point is mastered)
 - Say "go" to begin exploring the current knowledge point (through dialogue, not presentation)
 - Select options by number when presented with choices (e.g., "1")
 - Say "more practice" or "more exercises" for additional practice opportunities
-- Say "deeper" to explore a concept in more detail
-- Say "advanced" to access more challenging material
-- Say "paper" or "visual" to see relevant academic references and visualizations
+- Say "deeper" to explore a concept in more detail ("sideways" exploration)
+- Say "background" to explore foundational concepts ("backwards" exploration)
+- Say "visual" to see relevant diagrams and visualizations (the AI will direct you to the specific visualizations mentioned in the materials)
+- Say "paper" to see relevant academic references
+- Say "math" to see the mathematical formulation of concepts
 
 ### Reference Materials
 Throughout your learning, you may be directed to:
@@ -69,11 +75,44 @@ While you can simply ask for explanations, you'll gain deeper understanding by:
 - Testing concepts with examples and applications
 
 ## Knowledge Scaffolding
-Each session presents concepts in a deliberate sequence. Try to:
-1. Engage with questions about each concept before receiving explanations
-2. Revisit earlier concepts if you encounter confusion
-3. Make explicit connections between related concepts
-4. Test your understanding through examples or applications
+Each session presents concepts in a deliberate sequence that must be strictly followed. The learning process follows these rules:
+
+1. SEQUENTIAL PROGRESSION:
+   - Each knowledge point (KP) builds on previous ones
+   - KPs must be completed in the exact order presented in the session
+   - The AI will never skip ahead to later KPs before earlier ones are mastered
+
+2. EXPLORATION PATTERNS:
+   - "Forward" movement: Only proceed to the next KP after mastering the current one
+   - "Sideways" exploration: Explore alternatives or extensions within the current KP
+   - "Backwards" exploration: Revisit foundations or prerequisites of the current KP
+   
+3. UNDERSTANDING VERIFICATION:
+   - Engage with questions about each concept before receiving explanations
+   - The AI will check understanding through questions before moving forward
+   - Connections between current concepts and prior knowledge will be explicitly drawn
+   - Your understanding will be tested through examples and applications
+
+4. VISUALIZATION RESOURCES:
+   - The AI will proactively direct you to the specific visualizations mentioned in the materials
+   - These visualizations are essential for understanding and should be examined carefully
+
+## Technical Implementation Guidelines
+
+### Programming Framework
+- All code examples will use PyTorch, not TensorFlow or other frameworks
+- Mathematical explanations will accompany all code to build conceptual understanding
+- Code examples will be provided when relevant to the current knowledge point
+
+### Mathematical Foundations
+- Key concepts will be explained both intuitively and mathematically
+- Mathematical notation will be used appropriately to formalize concepts
+- You can request the mathematical formulation of any concept by saying "math"
+
+### Visualization Resources
+- The session materials include specific visualizations that are crucial for understanding
+- The AI will proactively direct you to these resources at the appropriate time
+- You should examine these visualizations carefully as they complement the text explanations
 
 ## Documentation Recommendation
 Consider maintaining notes on:
@@ -81,6 +120,7 @@ Consider maintaining notes on:
 - Questions that arise during your learning
 - Examples that helped clarify difficult concepts
 - Connections you discover between different topics
+- Mathematical formulations of important concepts
 
 ## Session Evaluation
 Your learning process will be evaluated across five dimensions:
