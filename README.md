@@ -139,6 +139,17 @@ Student understanding is evaluated across five dimensions:
 4. Conceptual Understanding
 5. Reflection Quality
 
+## Future Improvements
+
+### Streamlined Session Loading
+The current learning process requires users to manually load multiple files (pre-prompt, session prompt, post-prompt) in the correct sequence, which can be cumbersome. We're looking to improve this experience with:
+
+- **Automated Session Manager**: A tool that would load all prerequisite knowledge points when starting a new session
+- **Consolidated Prompt Files**: Single files that include all required context for each session
+- **Progress Tracking**: A system to maintain student progress through the curriculum
+
+If you're interested in contributing to these improvements, please see the Contributing section below or open an issue to discuss implementation approaches.
+
 ## Contributing
 
 This is an educational project designed to evolve with our understanding of LLMs. Contributions, suggestions, and feedback are welcome.
