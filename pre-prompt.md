@@ -8,7 +8,6 @@ This pre-prompt must be loaded before beginning any learning session. It provide
 This framework guides your self-directed exploration of Large Language Models (LLMs). Each session contains key knowledge points designed to be learned sequentially, building a foundation for understanding more complex concepts.
 
 ## Session Structure Verification
-
 Before beginning, please confirm:
 1. Which module are you studying? (e.g., "Module 1")
 2. Which session are you starting? (e.g., "Session 1.2")
@@ -51,7 +50,11 @@ The AI assistant will:
 - Say "more practice" or "more exercises" for additional practice opportunities
 - Say "deeper" to explore a concept in more detail ("sideways" exploration)
 - Say "background" to explore foundational concepts ("backwards" exploration)
-- Say "visual" to see relevant diagrams and visualizations (the AI will direct you to the specific visualizations mentioned in the materials)
+- Say "visual" to request additional visual aids or to revisit a visualization already offered.
+- Important:
+  - The AI will proactively direct you to the specific visualizations, diagrams, and figures mentioned in the session materials at the appropriate time,
+  - Even without you asking.
+  - These proactive visual references are part of the required session scaffolding.
 - Say "paper" to see relevant academic references
 - Say "math" to see the mathematical formulation of concepts
 
@@ -133,19 +136,9 @@ Consider maintaining notes on:
 ## Session Evaluation
 Your learning process will be evaluated across five dimensions:
 1. **Question Decomposition**: How effectively you break down complex questions
-   - Example: Converting "How do LLMs work?" into specific sub-questions about components and processes
-
 2. **Critical Thinking**: Your attempts to reason through concepts before asking for explanations
-   - Example: Proposing a solution approach before asking for the answer
-
 3. **Connection-Making**: How well you connect new concepts to previously learned material
-   - Example: Relating neural language models to n-gram limitations discussed earlier
-
 4. **Conceptual Understanding**: Demonstrating understanding beyond surface-level facts
-   - Example: Explaining a concept in your own words with novel examples
-
 5. **Reflection Quality**: The thoughtfulness of your summaries and reflections
-   - Example: Identifying practical implications or limitations of a concept
 
 When you've completed a session, load the post-prompt.md file for evaluation across these dimensions.
-
