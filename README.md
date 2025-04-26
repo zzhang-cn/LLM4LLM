@@ -1,6 +1,12 @@
-# LLM Fundamentals: A Progressive Learning Series
+# LLM4LLM: A Progressive Learning Series
 
 This repository contains materials for a flipped classroom discussion series on Large Language Models (LLMs), designed for non-CS/AI students, researchers, and professors. The goal is to build a fundamental understanding of LLMs through guided exploration and structured discussions.
+
+## Why LLM4LLM?
+
+Large Language Models have evolved at a breathtaking pace, making it challenging for educators and learners to keep up. This project offers a "fast track" approach - a direct, efficient path to understanding these complex systems without getting lost in technical minutiae.
+
+LLM4LLM is also a meta-experiment: using LLMs to explain themselves. As these models become more capable, the teaching materials can potentially improve in tandem. While the current modules and knowledge scaffolding are designed manually based on our understanding of how LLMs can be explained effectively, we're exploring how much of this educational process could eventually be handled by the LLMs themselves. This creates a fascinating recursive learning system that may evolve alongside the technology it teaches.
 
 ## What You'll Learn
 
@@ -58,6 +64,18 @@ This course follows a structured learning progression designed to build understa
 3. Work through session activities sequentially
 4. Complete the post-prompt evaluation before moving to the next session
 5. Connect concepts across sessions to build comprehensive understanding
+
+### Multi-language Learning
+
+One unique feature of LLM4LLM is the ability to learn about language models in your preferred language. Simply type a request in the target language to have the content delivered in that language:
+
+* To learn in Chinese: type "请用中文教授这个课程"
+* To learn in German: type "Bitte unterrichte diesen Kurs auf Deutsch"
+* To learn in Greek: type "Παρακαλώ διδάξτε αυτό το μάθημα στα Ελληνικά"
+* To learn in Spanish: type "Por favor enseña este curso en español"
+* To learn in French: type "Veuillez enseigner ce cours en français"
+
+The LLM will automatically adapt and provide all explanations, examples, and interactions in your requested language, making this learning experience accessible across language barriers.
 
 ## Module Overview
 
@@ -171,7 +189,7 @@ This is an educational project designed to evolve with our understanding of LLMs
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License - see the [LICENSE](./LICENSE) file for details. This license allows for free use for research and educational purposes, but prohibits commercial use without permission.
 
 ## Acknowledgments
 
