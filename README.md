@@ -59,11 +59,12 @@ This course follows a structured learning progression designed to build understa
 
 ### Learning Process
 
-1. Begin by loading the pre-prompt to understand the framework
-2. Select the appropriate session prompt based on your progress
-3. Work through session activities sequentially
-4. Complete the post-prompt evaluation before moving to the next session
-5. Connect concepts across sessions to build comprehensive understanding
+1. Begin by opening your favorite generative AI chatbot (tested with ChatGPT, Claude, Gemini, DeepSeek, and others)
+2. Copy and paste the pre-prompt into the chat to establish the learning framework
+3. Copy and paste the appropriate session prompt (e.g., module-1/s1.1-prompt.md) into the chat
+4. Work through the activities as guided by the LLM
+5. Copy and paste the post-prompt evaluation into the chat before moving to the next session
+6. Connect concepts across sessions to build comprehensive understanding
 
 ### Multi-language Learning
 
