@@ -1,10 +1,18 @@
-Looking at your planned content for Module 2, I can sketch a README that aligns with this focus. Regarding Knowledge Point 6 in Session 1.5, I think it could be streamlined or merged with KP5 since the limitations naturally lead to discussing what comes next.
-
-Here's a sketch of the README for Module 2:
-
 # Module 2: Transformer Architecture and Modern LLM Training
 
-This module explores the architecture that powers today's Large Language Models, focusing on the transformer design and how these models are trained to follow instructions.
+## Building on Module 1 Foundations
+
+In Module 1, you explored the foundations of language modeling through a progressive journey:
+
+- **Session 1.1** introduced next-word prediction as the core mechanism powering language models, showing how this simple capability enables complex behaviors
+- **Session 1.2** explored n-gram models as the simplest approach to predicting text, and uncovered their fundamental limitations with sparse data
+- **Session 1.3** revealed how neural representations address these limitations through dense vector embeddings that capture meaning
+- **Session 1.4** examined how neural language models make predictions and learn from data, showing how they overcome n-gram limitations
+- **Session 1.5** investigated specialized embedding techniques like Word2Vec and their semantic properties, while highlighting the limitations of static embeddings
+
+This progression established the conceptual foundations for understanding language models: representation, prediction, and training. However, the models we've explored so far—n-grams and early neural approaches—fall far short of modern capabilities.
+
+Module 2 bridges the gap between these foundational concepts and the architecture powering today's Large Language Models.
 
 ## Learning Objectives
 
@@ -19,13 +27,13 @@ By the end of this module, you should be able to:
 
 ## Sessions
 
-### [Session 2.1: Tokens, Positions, and Feed-Forward Networks](./session-2.1/)
+### [Session 2.1: Tokens, Positions, and Feed-Forward Networks](./s2.1-prompt.md)
 Explore why modern LLMs operate on tokens instead of words, how position information is encoded, and how feed-forward networks act as knowledge storage within transformers.
 
-### [Session 2.2: Attention Mechanisms and Transformer Blocks](./session-2.2/)
+### [Session 2.2: Attention Mechanisms and Transformer Blocks](./s2.2-prompt.md)
 Discover how attention mechanisms find relevant information across the context window and how transformer blocks combine attention with feed-forward networks.
 
-### [Session 2.3: Scaling and Training Modern LLMs](./session-2.3/)
+### [Session 2.3: Scaling and Training Modern LLMs](./s2.3-prompt.md)
 Learn how residual connections enable deeper networks, and explore the complete training pipeline from pre-training on raw text to instruction tuning.
 
 ## Key Concepts
@@ -38,20 +46,22 @@ Learn how residual connections enable deeper networks, and explore the complete 
 - **Residual connections**: The optimization technique enabling deeper architectures
 - **Pre-training and instruction tuning**: The two-phase approach to modern LLM training
 
-## Comments on your plan:
+## Connection to Module 1
 
-Your coverage plan for Module 2 follows a logical progression that builds on the foundations established in Module 1. A few thoughts:
+Module 2 builds directly on the foundations established in Module 1:
 
-1. The transition from words to tokens is very important and often confusing for students - good to see it's the first topic.
+1. The **next-token prediction** objective (Session 1.1) remains the central training mechanism, but enables more complex emergent capabilities at scale
 
-2. I'd suggest ensuring you explicitly connect position embeddings to the limitation from Module 1 (static word embeddings don't account for position).
+2. While traditional **n-gram approaches** (Session 1.2) were limited by the sparsity problem, transformers use attention to dynamically access relevant context
 
-3. The "FFN to store knowledge" concept might benefit from concrete examples of what kind of knowledge is stored and how we know this.
+3. The **word embedding** concept (Session 1.3) evolves into tokenized representations that handle the long tail of language more efficiently
 
-4. For attention mechanisms, it might be helpful to contrast with the fixed context of n-grams and the limitations of static neural models from Module 1.
+4. The **neural language model architecture** (Session 1.4) expands into transformer blocks with specialized components for different aspects of language processing
 
-5. The residual connection explanation should address why deeper networks are beneficial in the first place.
+5. The limitations of **static embeddings** (Session 1.5) are addressed by contextual representations through self-attention
 
-6. The pre-training and instruction tuning section could connect back to Session 1.1's discussion of how instruction following emerges from prediction.
+This module reveals how the transformer architecture combines and extends these foundational concepts to create significantly more powerful language models.
 
-Would you like me to expand any particular section of this sketch in more detail?
+## Progression to Module 3
+
+After completing this module, you'll understand the core architecture and training process behind modern LLMs. Module 3 will build on this knowledge to explore how these models develop reasoning capabilities and how they're aligned with human values through techniques like RLHF (Reinforcement Learning from Human Feedback).
