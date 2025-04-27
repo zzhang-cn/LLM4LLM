@@ -30,11 +30,11 @@ By the end of this module, you should be able to:
 ### [Session 2.1: Tokens, Positions, and Feed-Forward Networks](./s2.1-prompt.md)
 Explore why modern LLMs operate on tokens instead of words, how position information is encoded, and how feed-forward networks act as knowledge storage within transformers.
 
-### [Session 2.2: Attention Mechanisms and Transformer Blocks](./s2.2-prompt.md)
-Discover how attention mechanisms find relevant information across the context window and how transformer blocks combine attention with feed-forward networks.
+### [Session 2.2: Building a Transformer Block: Attention and Knowledge Storage](./s2.2-prompt.md)
+Discover how attention mechanisms find relevant information across the context window and how transformer blocks combine attention with feed-forward networks to create the fundamental computational unit of modern language models.
 
 ### [Session 2.3: Scaling and Training Modern LLMs](./s2.3-prompt.md)
-Learn how residual connections enable deeper networks, and explore the complete training pipeline from pre-training on raw text to instruction tuning.
+Learn how residual connections enable deeper networks, and explore the complete training pipeline from pre-training on raw text to instruction tuning for creating helpful assistants.
 
 ## Key Concepts
 
