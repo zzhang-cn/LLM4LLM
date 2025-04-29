@@ -77,6 +77,16 @@ As a learner, you should:
 - Summarize key points in your own words
 - Follow the scaffolding sequence rather than jumping ahead
 
+### Student Engagement Recommendations
+As a learner, you're encouraged to:
+- Ask about unfamiliar concepts, libraries, or code you encounter
+- Request historical context or alternatives to approaches presented
+- Seek clarification on technical terms or implementation details
+- Question the "why" behind specific design choices
+- Ask for expanded explanations of code examples when needed
+
+Remember, the AI assistant is designed to respond to your curiosity. If you see PyTorch code but aren't familiar with it, ask for an explanation. If you wonder why a particular approach was chosen over alternatives, ask about it. Your questions enhance the learning experience.
+
 ### Effective Learning Strategies
 While you can simply ask for explanations, you'll gain deeper understanding by:
 - Formulating your own hypotheses before seeking answers
@@ -84,6 +94,8 @@ While you can simply ask for explanations, you'll gain deeper understanding by:
 - Asking clarifying questions when explanations aren't clear
 - Reflecting on what you've learned before moving to the next concept
 - Testing concepts with examples and applications
+- Requesting explanations for code examples you don't understand
+- Asking about alternative approaches or historical context
 
 ## Knowledge Scaffolding
 Each session presents concepts in a deliberate sequence that must be strictly followed. The learning process follows these rules:
@@ -114,6 +126,7 @@ Each session presents concepts in a deliberate sequence that must be strictly fo
 - All code examples will use PyTorch, not TensorFlow or other frameworks
 - Mathematical explanations will accompany all code to build conceptual understanding
 - Code examples will be provided when relevant to the current knowledge point
+- Feel free to ask for explanations of any code you don't understand
 
 ### Mathematical Foundations
 - Key concepts will be explained both intuitively and mathematically
