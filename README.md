@@ -26,6 +26,17 @@ This series takes a unique approach:
 - **Progressive learning**: Questions build systematically on previous concepts
 - **Flipped classroom**: Self-directed exploration before group discussions
 - **Accessible**: Designed specifically for those without CS/AI backgrounds
+- **Tiered content**: Materials cater to different backgrounds and technical abilities
+
+## Interactive Learning Approach
+
+This course is designed to be interactive and responsive to your curiosity. You're encouraged to:
+- Ask questions whenever you encounter unfamiliar concepts
+- Request deeper explanations of code examples
+- Inquire about historical context or alternative approaches
+- Challenge assumptions and seek clarification
+
+The AI assistant is prepared to explain technical concepts (like PyTorch code), provide historical context, and discuss alternative approaches based on your interests and questions. Don't hesitate to ask for clarification about anything that seems unfamiliar or confusing.
 
 ## Learning Structure
 
@@ -65,6 +76,16 @@ This course follows a structured learning progression designed to build understa
 4. Work through the activities as guided by the LLM
 5. Copy and paste the post-prompt evaluation into the chat before moving to the next session
 6. Connect concepts across sessions to build comprehensive understanding
+
+### Content for Different Backgrounds
+
+Starting from Module 2, the content is structured in three tiers to accommodate different backgrounds:
+
+- **Core Concepts (For Everyone)**: Accessible explanations using analogies and visual references
+- **Hands-On Implementation (For CS Students)**: Practical code examples and implementations
+- **Advanced Theory (For the Curious)**: Deeper mathematical foundations and connections
+
+You can engage with whichever level best matches your background and interests. Feel free to ask the AI to explain code examples or provide more context for technical concepts.
 
 ### Multi-language Learning
 
@@ -106,12 +127,12 @@ This module examines the transformer architecture that powers modern LLMs, focus
 This module explores advanced capabilities of modern LLMs, particularly their reasoning abilities and how they're aligned with human values and intentions.
 
 **Key Concepts:**
-- Fundamentals of Reinforcement Learning
+- The alignment problem and why prediction isn't enough
 - Reinforcement Learning from Human Feedback (RLHF)
 - Value alignment techniques
-- Policy gradient methods for improving reasoning
 - Chain-of-thought and step-by-step reasoning
 - Test-time computation and dynamic reasoning strategies
+- Balancing capabilities with alignment
 
 ## Getting Started
 
@@ -157,6 +178,18 @@ Student understanding is evaluated across five dimensions:
 3. Connection-Making
 4. Conceptual Understanding
 5. Reflection Quality
+
+## The Learning Journey
+
+This curriculum guides you through a progressive journey:
+
+**Module 1** establishes the fundamental mechanisms behind language modeling, showing how simple statistical techniques evolved into neural representations.
+
+**Module 2** introduces the transformer architecture that revolutionized language processing, explaining how attention mechanisms and parallel processing unlock new capabilities.
+
+**Module 3** explores how modern language models move beyond pattern matching to reasoning and alignment with human values, revealing the current frontiers of development.
+
+Throughout this journey, you'll see how each advancement builds upon previous concepts and addresses specific limitations of earlier approaches.
 
 ## Future Improvements
 
