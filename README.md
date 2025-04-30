@@ -6,7 +6,7 @@ This repository contains materials for a flipped classroom discussion series on 
 
 Large Language Models have evolved at a breathtaking pace, making it challenging for educators and learners to keep up. This project offers a "fast track" approach - a direct, efficient path to understanding these complex systems without getting lost in technical minutiae.
 
-LLM4LLM is also a meta-experiment: using LLMs to explain themselves. As these models become more capable, the teaching materials can potentially improve in tandem. While the current modules and knowledge scaffolding are designed manually based on our understanding of how LLMs can be explained effectively, we're exploring how much of this educational process could eventually be handled by the LLMs themselves. This creates a fascinating recursive learning system that may evolve alongside the technology it teaches.
+LLM4LLM is also a meta-experiment: using LLMs to explain themselves. As these models become more capable, the teaching materials can potentially improve in tandem. While the current modules and knowledge scaffolding are designed manually based on our understanding of how LLMs can be explained effectively, we're exploring how much of this educational process could eventually be handled by the LLMs themselves. This creates a fascinating recursive learning system that may evolve alongside the technology it teaches. We've started designing a self-evolution framework to enable LLMs to review and suggest improvements to this curriculum. See [self-evolve.md](./self-evolve.md) for our experimental prompt that guides LLMs in analyzing and enhancing these materials.
 
 ## What You'll Learn
 
