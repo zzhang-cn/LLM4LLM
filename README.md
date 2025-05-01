@@ -4,9 +4,46 @@ This repository contains materials for a flipped classroom discussion series on 
 
 ## Why LLM4LLM?
 
-Large Language Models have evolved at a breathtaking pace, making it challenging for educators and learners to keep up. This project offers a "fast track" approach - a direct, efficient path to understanding these complex systems without getting lost in technical minutiae.
+Large Language Models have evolved at a breathtaking pace, making it challenging for educators and learners to keep up. This project offers a direct path to understanding these complex systems without getting lost in technical minutiae.
 
-LLM4LLM is also a meta-experiment: using LLMs to explain themselves. As these models become more capable, the teaching materials can potentially improve in tandem. While the current modules and knowledge scaffolding are designed manually based on our understanding of how LLMs can be explained effectively, we're exploring how much of this educational process could eventually be handled by the LLMs themselves. This creates a fascinating recursive learning system that may evolve alongside the technology it teaches. We've started designing a self-evolution framework to enable LLMs to review and suggest improvements to this curriculum. See [self-evolve.md](./self-evolve.md) for our experimental prompt that guides LLMs in analyzing and enhancing these materials.
+The content is structured in three tiers:
+- Core concepts explained through analogies and visualizations
+- Practical implementations with code examples
+- Advanced theoretical foundations with mathematical details
+
+Learners can engage with whichever level matches their background and interests, diving deeper in areas they find most relevant.
+
+## The Science Behind the Series
+
+This curriculum is structured around three fundamental principles that parallel both machine learning development and human cognition:
+
+1. **Information as Distributed Representation**: Knowledge exists not as discrete facts but as distributed patterns across neural networks. Module 1 explores how information is encoded in these representations.
+
+2. **Attention and Pattern Retrieval**: Learning involves developing mechanisms to identify relevant patterns within vast inputs. Module 2 examines how models sift through potentially very long inputs to find the relevant "keys" to retrieve stored patterns.
+
+3. **Goal-Directed Learning**: Beyond simple imitation, true learning is driven by rewards oriented toward specific goals. Module 3 investigates how reinforcement mechanisms guide models toward aligned behaviors.
+
+These principles not only explain how modern LLMs function but also reflect fundamental aspects of human cognition, creating a bridge between artificial and natural intelligence.
+
+## The Meta-Experiment: LLMs Explaining Themselves
+
+Humans are not born to explain themselves; perhaps LLMs can, and they get better over time.
+
+This curriculum represents a recursive experiment: using LLMs to explain their own inner workings. As these models become more capable, the teaching materials can potentially improve in tandem - from creating more effective visualizations that rival expert presentations to incorporating new research insights about LLM mechanisms that are still being discovered.
+
+This creates a self-reflexive learning system that may evolve alongside the technology it teaches. See [self-evolve.md](./self-evolve.md) for our experimental prompt that guides LLMs in analyzing and enhancing these materials.
+
+## Recommended Learning Approach
+
+### One Session Per Chat
+
+Each learning session is designed to be completed within a single chat conversation. This approach offers several benefits:
+- Allows you to revisit specific sessions at any time
+- Makes it easy to continue where you left off
+- Creates a searchable archive of your learning journey
+- Ensures focused, manageable learning blocks
+
+When starting a new session, your previous knowledge is assumed. Each module README provides an overview of the knowledge points covered in its sessions, serving as a helpful reference when moving between topics.
 
 ## What You'll Learn
 
