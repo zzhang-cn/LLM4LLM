@@ -2,32 +2,18 @@
 
 This repository contains materials for a flipped classroom discussion series on Large Language Models (LLMs), designed for non-CS/AI students, researchers, and professors. The goal is to build a fundamental understanding of LLMs through guided exploration and structured discussions.
 
-## The Meta-Experiment: LLMs Explaining Themselves
-
-Humans are not born to explain themselves; perhaps LLMs can, and they get better over time.
-
-This curriculum represents a recursive experiment: using LLMs to explain their own inner workings. As these models become more capable, the teaching materials can potentially improve in tandem - from creating more effective visualizations that rival expert presentations to incorporating new research insights about LLM mechanisms that are still being discovered.
-
-This creates a self-reflexive learning system that may evolve alongside the technology it teaches. See [self-evolve.md](./self-evolve.md) for our experimental prompt that guides LLMs in analyzing and enhancing these materials.
-
 ## Why LLM4LLM?
 
 Large Language Models have evolved at a breathtaking pace, making it challenging for educators and learners to keep up. This project offers a direct path to understanding these complex systems without getting lost in technical minutiae.
 
 The content is structured in three tiers:
-- Core concepts explained through analogies and visualizations
-- Practical implementations with code examples
-- Advanced theoretical foundations with mathematical details
+- **Core Concepts**: Explained through analogies and visualizations for everyone
+- **Hands-On Implementation**: Practical code examples for CS students
+- **Advanced Theory**: Mathematical foundations for those interested in deeper understanding
 
-Learners can engage with whichever level matches their background and interests, diving deeper in areas they find most relevant.
+Learners can engage with whichever tier matches their background and interests, diving deeper in areas they find most relevant.
 
-## For Different Audiences
-
-- **Non-CS Students**: Build intuitive understanding through analogies and visualizations without requiring technical background
-- **CS Students Beginning ML**: Apply your programming knowledge to implement key components and see theory in practice
-- **Educators**: Access structured materials with ready-to-use examples and progressive knowledge scaffolding
-
-## What You'll Learn & Scientific Framework
+## The Science Behind the Series
 
 This curriculum is structured around three fundamental principles that parallel both machine learning development and human cognition:
 
@@ -36,6 +22,80 @@ This curriculum is structured around three fundamental principles that parallel 
 2. **Attention and Pattern Retrieval**: Learning involves developing mechanisms to identify relevant patterns within vast inputs. Module 2 examines how models sift through potentially very long inputs to find the relevant "keys" to retrieve stored patterns.
 
 3. **Goal-Directed Learning**: Beyond simple imitation, true learning is driven by rewards oriented toward specific goals. Module 3 investigates how reinforcement mechanisms guide models toward aligned behaviors.
+
+These principles not only explain how modern LLMs function but also reflect fundamental aspects of human cognition, creating a bridge between artificial and natural intelligence.
+
+## The Meta-Experiment: LLMs Explaining Themselves
+
+This curriculum represents a recursive experiment: using LLMs to explain their own inner workings. As these models become more capable, the teaching materials can potentially improve in tandem - from creating more effective visualizations to incorporating new research insights about LLM mechanisms.
+
+This creates a self-reflexive learning system that may evolve alongside the technology it teaches. See [self-evolve.md](./self-evolve.md) for our experimental prompt that guides LLMs in analyzing and enhancing these materials.
+
+## Recommended Learning Approach
+
+### Session Management
+
+Each learning session is designed as a single learning unit that you can work through at your own pace. One of the advantages of learning with generative AI is the ability to save your progress and return to continue exactly where you left off.
+
+#### Starting a New Session
+1. Begin with the pre-prompt to establish the learning framework
+2. Load the appropriate session prompt (e.g., module-1/s1.1-prompt.md)
+3. Engage with the content through interactive dialogue
+
+#### Continuing a Session
+If you need to pause and resume a session:
+1. Return to your previous conversation where you were working on the session
+2. You can simply continue where you left off
+3. If needed, you can navigate to specific Knowledge Points (KPs)
+   - Example: "I'd like to continue with Knowledge Point 3"
+   - Or: "Let's review Knowledge Point 2 before moving on"
+
+#### Navigating Between Knowledge Points
+Within a session, you can freely navigate between Knowledge Points (KPs):
+- Ask "What Knowledge Points are in this session?" to get an overview
+- Say "Go to Knowledge Point X" to jump to a specific KP
+- Say "Review Knowledge Point X" to revisit a previously completed KP
+- Ask "What's my current progress?" to see which KPs you've completed
+- Request a summary of previously covered concepts
+- Ask clarifying questions about material from earlier in the session
+
+#### Completing a Session
+When you finish a session:
+1. Load the post-prompt for evaluation
+2. Review your learning assessment before moving to the next session
+3. Begin the next session in a new conversation
+
+This approach offers several benefits:
+- Creates a searchable archive of your learning journey
+- Makes it easy to continue where you left off
+- Allows focused exploration of specific concepts
+- Ensures each session can be completed at your own pace
+
+## Three-Tier Learning Structure
+
+This curriculum accommodates learners with different backgrounds through three tiers of content:
+
+### Core Concepts (For Everyone)
+- Accessible explanations using analogies and visualizations
+- No programming or mathematical background required
+- Focus on intuitive understanding of fundamental principles
+- Suitable for all learners regardless of technical background
+
+### Hands-On Implementation (For CS Students)
+- Practical code examples using PyTorch
+- Implementation details and programming exercises
+- Requires basic programming knowledge
+- Best for those with computer science background
+
+### Advanced Theory (For the Curious)
+- Mathematical foundations and theoretical details
+- Connections to broader information theory and research
+- Formal definitions and derivations
+- Appropriate for those interested in deeper theoretical understanding
+
+You can freely navigate between these tiers based on your interests and background. All learners should engage with the Core Concepts tier, while the other tiers are optional based on your background and learning goals.
+
+## What You'll Learn
 
 By engaging with this learning series, you will:
 - Understand how language models work from first principles
@@ -46,95 +106,48 @@ By engaging with this learning series, you will:
 
 Unlike traditional courses that start with technical jargon and mathematical complexity, this series begins with intuitive concepts and progressively introduces more sophisticated ideas as your understanding develops.
 
-## Course Philosophy & Learning Approach
-
-### Core Principles
-- **Principle-focused**: Understanding the core concepts behind LLM behavior without diving into technical details
-- **Progressive learning**: Questions build systematically on previous concepts
-- **Flipped classroom**: Self-directed exploration before group discussions
-- **Accessible**: Designed specifically for those without CS/AI backgrounds
-- **Tiered content**: Materials cater to different backgrounds and technical abilities
-
-### Tiered Content Structure
-- **Core Concepts** (For Everyone): Intuitive explanations with rich analogies and visualizations
-- **Hands-On Implementation** (For CS Students): Practical code examples in PyTorch with step-by-step walkthrough
-- **Advanced Theory** (For the Curious): Mathematical foundations, research connections, and deeper insights
-
-### Interactive Learning Method
-This course is designed to be interactive and responsive to your curiosity. You're encouraged to:
-- Ask questions whenever you encounter unfamiliar concepts
-- Request deeper explanations of code examples
-- Inquire about historical context or alternative approaches
-- Challenge assumptions and seek clarification
-
-The AI assistant is prepared to explain technical concepts (like PyTorch code), provide historical context, and discuss alternative approaches based on your interests and questions. Don't hesitate to ask for clarification about anything that seems unfamiliar or confusing.
-
 ## Learning Structure
-
-This course follows a structured learning progression designed to build understanding systematically:
 
 ### Overall Flow
 
 1. Progress through **modules** in sequential order (Module 1 → Module 2 → Module 3)
 2. Within each module, complete **sessions** in numerical order (Session 1.1 → Session 1.2 → etc.)
-3. Each session follows a consistent three-part structure and process:
+3. Each session follows a consistent three-part structure:
+   
+### Session Structure
 
-   **Pre-prompt Phase** ([pre-prompt.md](./pre-prompt.md))
+1. **Pre-prompt Phase** ([pre-prompt.md](./pre-prompt.md))
    - Sets the learning framework for self-directed exploration
    - Defines student responsibilities and evaluation criteria
    - Establishes knowledge scaffolding approach
    - **Must be loaded first** before beginning any session
 
-   **Session Prompt Phase** (e.g., `module-1/s1.1-prompt.md`)
+2. **Session Prompt Phase** (e.g., `module-1/s1.1-prompt.md`)
    - Contains the primary question and learning activities for the session
    - Provides step-by-step exploration paths
    - Includes hands-on exercises, discussion prompts, and checkpoints
    - Builds on concepts from previous sessions
 
-   **Post-prompt Phase** ([post-prompt.md](./post-prompt.md))
+3. **Post-prompt Phase** ([post-prompt.md](./post-prompt.md))
    - Evaluates learning progress across five dimensions
    - Identifies strengths and areas for improvement
    - Provides scores and specific examples from the conversation
    - Suggests next steps for continued learning
 
-To complete each session:
-1. Begin by opening your favorite generative AI chatbot (tested with ChatGPT, Claude, Gemini, DeepSeek, and others)
-2. Copy and paste the pre-prompt into the chat to establish the learning framework
-3. Copy and paste the appropriate session prompt (e.g., module-1/s1.1-prompt.md) into the chat
-4. Work through the activities as guided by the LLM
-5. Copy and paste the post-prompt evaluation into the chat before moving to the next session
-6. Connect concepts across sessions to build comprehensive understanding
+### Navigating Content Tiers
 
-### Recommended Learning Approach
+Use these commands to navigate between content tiers:
+- Say "core concepts" to focus on fundamental ideas accessible to everyone
+- Say "implementation" to explore hands-on code examples (for CS students)
+- Say "theory" to dive into mathematical foundations and advanced concepts
+- Say "all tiers" to see content from all three tiers for the current knowledge point
 
-#### One Session Per Chat
-Each learning session is designed to be completed within a single chat conversation. This approach offers several benefits:
-- Allows you to revisit specific sessions at any time (e.g "take me back to KP 2")
-- Makes it easy to continue where you left off (e.g. "let's continue from the last KP")
-- Creates a searchable archive of your learning journey
-- Ensures focused, manageable learning blocks
-
-When starting a new session, your previous knowledge is assumed. Each module README provides an overview of the knowledge points covered in its sessions, serving as a helpful reference when moving between topics.
-
-#### Multi-language Learning
-One unique feature of LLM4LLM is the ability to learn about language models in your preferred language. Simply type a request in the target language to have the content delivered in that language:
-
-* To learn in Chinese: type "请用中文教授这个课程"
-* To learn in German: type "Bitte unterrichte diesen Kurs auf Deutsch"
-* To learn in Greek: type "Παρακαλώ διδάξτε αυτό το μάθημα στα Ελληνικά"
-* To learn in Spanish: type "Por favor enseña este curso en español"
-* To learn in French: type "Veuillez enseigner ce cours en français"
-
-The LLM will automatically adapt and provide all explanations, examples, and interactions in your requested language, making this learning experience accessible across language barriers.
-
-## Module Overview: The Learning Journey
-
-This curriculum guides you through a progressive journey across three modules, each addressing specific aspects of how language models work:
+## Module Overview
 
 ### Module 1: Foundations of Word Prediction and Embeddings
-This module establishes the fundamental mechanisms behind language modeling, showing how simple statistical techniques evolved into neural representations.
+This module introduces the core concepts of language modeling through the lens of next-word prediction, starting with simple n-gram models and progressing to neural word embeddings.
 
-**Key Concepts**:
+**Key Concepts:**
 - Next-token prediction as the foundational mechanism
 - N-gram models and their limitations
 - Supervised learning approaches (Bengio's neural language model)
@@ -143,9 +156,9 @@ This module establishes the fundamental mechanisms behind language modeling, sho
 - Embeddings and their role in representing meaning
 
 ### Module 2: Transformer Architecture and LLM Training
-This module introduces the transformer architecture that revolutionized language processing, explaining how attention mechanisms and parallel processing unlock new capabilities.
+This module examines the transformer architecture that powers modern LLMs, focusing on how these models are pre-trained and fine-tuned to follow instructions.
 
-**Key Concepts**:
+**Key Concepts:**
 - Attention mechanisms and self-attention
 - Feed-forward networks as computational engines
 - Transformer architecture components
@@ -154,17 +167,15 @@ This module introduces the transformer architecture that revolutionized language
 - Scaling properties of transformer models
 
 ### Module 3: Reasoning and Alignment in Large Models
-This module explores how modern language models move beyond pattern matching to reasoning and alignment with human values, revealing the current frontiers of development.
+This module explores advanced capabilities of modern LLMs, particularly their reasoning abilities and how they're aligned with human values and intentions.
 
-**Key Concepts**:
+**Key Concepts:**
 - The alignment problem and why prediction isn't enough
 - Reinforcement Learning from Human Feedback (RLHF)
 - Value alignment techniques
 - Chain-of-thought and step-by-step reasoning
 - Test-time computation and dynamic reasoning strategies
 - Balancing capabilities with alignment
-
-Throughout this journey, you'll see how each advancement builds upon previous concepts and addresses specific limitations of earlier approaches. The curriculum shows how LLMs evolved from simple statistical models to sophisticated systems capable of complex reasoning and alignment with human values.
 
 ## Getting Started
 
@@ -178,17 +189,16 @@ Throughout this journey, you'll see how each advancement builds upon previous co
 2. Follow this sequence for each session:
    ```
    # First, load the pre-prompt
-   1. Open your favorite generative AI chatbot
-   2. Copy and paste the content from pre-prompt.md
+   1. Open and review pre-prompt.md
    
    # Next, load the session-specific prompt
-   3. Copy and paste the content from module-1/s1.1-prompt.md
+   2. Open module-1/s1.1-prompt.md
    
    # Complete all activities in the session prompt
-   4. Work through each part sequentially
+   3. Work through each part sequentially
    
    # Finally, evaluate your learning
-   5. Copy and paste the content from post-prompt.md
+   4. Open post-prompt.md for assessment
    ```
 
 ### Materials
@@ -198,58 +208,14 @@ Each module contains:
 - Code templates and examples where applicable
 - Suggested resources and references
 
-### Tools
-- Access to an LLM (preferably one that supports conversational interactions)
-- Jupyter Notebook or similar environment for coding exercises (optional)
-- Note-taking system to track your learning progression (recommended)
+## Multi-language Learning
 
-## Evaluation Framework
+One unique feature of LLM4LLM is the ability to learn about language models in your preferred language. Simply type a request in the target language to have the content delivered in that language:
 
-Student understanding is evaluated across five dimensions:
-1. **Question Decomposition**: How effectively you break down complex questions
-2. **Critical Thinking**: Your attempts to reason through concepts before asking for explanations
-3. **Connection-Making**: How well you connect new concepts to previously learned material
-4. **Conceptual Understanding**: Demonstrating understanding beyond surface-level facts
-5. **Reflection Quality**: The thoughtfulness of your summaries and reflections
+* To learn in Chinese: type "请用中文教授这个课程"
+* To learn in German: type "Bitte unterrichte diesen Kurs auf Deutsch"
+* To learn in Greek: type "Παρακαλώ διδάξτε αυτό το μάθημα στα Ελληνικά"
+* To learn in Spanish: type "Por favor enseña este curso en español"
+* To learn in French: type "Veuillez enseigner ce cours en français"
 
-When you've completed a session, load the post-prompt.md file for evaluation across these dimensions.
-
-## Contributing
-
-This is an educational project designed to evolve with our understanding of LLMs. Contributions, suggestions, and feedback are welcome.
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-improvement`)
-3. Commit your changes (`git commit -am 'Add some amazing improvement'`)
-4. Push to the branch (`git push origin feature/amazing-improvement`)
-5. Create a new Pull Request
-
-### Types of Contributions Welcome
-- Additional learning sessions
-- Improvements to existing content
-- Clarifications or corrections
-- Additional code examples
-- Visual aids and diagrams
-- References to relevant papers and resources
-
-Researchers are especially encouraged to contribute insights that enhance understanding of LLM mechanisms. See [self-evolve.md](./self-evolve.md) for our experimental prompt that guides LLMs in analyzing and enhancing these materials.
-
-## Future Improvements
-
-We're working on streamlining the session loading experience with:
-- Automated session managers
-- Consolidated prompt files
-- Progress tracking systems
-
-If you're interested in contributing to these improvements, please open an issue to discuss implementation approaches.
-
-## License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License - see the [LICENSE](./LICENSE) file for details. This license allows for free use for research and educational purposes, but prohibits commercial use without permission.
-
-## Acknowledgments
-
-- Contributors and reviewers who have helped shape this educational series
-- The research community advancing our understanding of large language models
-- Students whose questions and feedback continue to improve these materials
+The LLM will automatically adapt and provide all explanations, examples, an
