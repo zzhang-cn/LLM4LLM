@@ -12,6 +12,30 @@ By the end of this module, you should be able to:
 - Differentiate between supervised and unsupervised approaches to language modeling
 - Understand how word embeddings capture semantic relationships
 
+## Three-Tier Learning Structure
+
+This module, like all others in the curriculum, follows a three-tier approach that accommodates learners with different backgrounds:
+
+### Core Concepts (For Everyone)
+- Accessible explanations using analogies and visualizations
+- No programming or mathematical background required
+- Focus on intuitive understanding of fundamental principles
+- Suitable for all learners regardless of technical background
+
+### Hands-On Implementation (For CS Students)
+- Practical code examples using PyTorch
+- Implementation details and programming exercises
+- Requires basic programming knowledge
+- Best for those with computer science background
+
+### Advanced Theory (For the Curious)
+- Mathematical foundations and theoretical details
+- Connections to broader information theory and research
+- Formal definitions and derivations
+- Appropriate for those interested in deeper theoretical understanding
+
+You can freely navigate between these tiers based on your interests and background. All learners should engage with the Core Concepts tier, while the other tiers are optional based on your background and learning goals.
+
 ## Sessions
 
 ### [Session 1.1: Understanding Next-Word Prediction](./s1.1-prompt.md)
@@ -24,7 +48,7 @@ Experience firsthand the process of building a simple statistical language model
 Discover how neural approaches can represent words as vectors in a continuous space, addressing fundamental limitations of discrete n-gram representations.
 
 ### [Session 1.4: Neural Language Model Prediction and Training](./s1.4-prompt.md)
-Explore how neural language models make predictions and learn from data, understanding the complete architecture from input to prediction.
+Explore how neural language models make predictions and learn from data, understanding the complete architecture from input to prediction and how models are evaluated using perplexity.
 
 ### [Session 1.5: Advanced Word Embeddings and Applications](./s1.5-prompt.md)
 Investigate specialized embedding techniques like Word2Vec, explore the fascinating semantic properties of word vectors, and understand the trade-offs between supervised and unsupervised approaches.
@@ -40,7 +64,8 @@ Investigate specialized embedding techniques like Word2Vec, explore the fascinat
 - **Supervised vs. unsupervised learning**: Different approaches to training language models
 - **Training vs. inference**: How models learn patterns and make predictions
 - **Semantic properties**: How embeddings capture relationships between words
-- **Limitations of simple models**: Why we need more sophisticated approaches
+- **Perplexity**: Measuring the quality and predictive power of language models
+- **Limitations of static embeddings**: Why we need more sophisticated approaches
 
 ## Session Progression
 
