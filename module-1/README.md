@@ -1,8 +1,16 @@
-# Module 1: Foundations of Word Prediction and Embeddings
+## Module 1: Foundations of Word Prediction and Embeddings
 
-This module introduces the core concepts of language modeling through the lens of next-word prediction, which serves as the fundamental mechanism behind language models like the one you're interacting with now.
+**In this module**, you'll discover the foundational concepts that power modern AI language systems. We'll explore how these systems learn to recognize patterns in language and use them to predict what comes next - a seemingly simple capability that enables much more complex behaviors.
 
-## Learning Objectives
+### What You'll Discover
+
+- **The Power of Pattern Recognition**: How AI learns to identify and leverage patterns in text - the fundamental building block of all deep learning approaches
+- **Prediction as a Foundation**: How learning to predict the next word creates a necessary (though not sufficient) building block for advanced AI behaviors we'll explore further in Module 3
+- **From Symbols to Meaning**: How representing words as mathematical points allows AI to capture relationships and meanings without explicit programming
+- **Meaning Through Context**: How words get their meaning from the company they keep, and how AI learns to map these relationships
+- **Mathematical Maps of Language**: How embedding words in a "meaning space" allows AI to discover connections between concepts like "king-queen" or "France-Paris"
+
+### Technical Objectives (for CS+ students)
 
 By the end of this module, you should be able to:
 - Understand how next-word prediction serves as the foundation for LLMs
