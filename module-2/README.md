@@ -6,80 +6,126 @@ Welcome to Module 2 of the LLM4LLM learning series! This module bridges the gap 
 
 In Module 1, we explored:
 - Next-word prediction as the core task of language modeling
-- Simple n-gram models and their limitations
+- N-gram models and their limitations
 - Neural representations and embeddings
-- Early neural language models
+- Bengio's neural language model
 - Word2Vec and specialized embedding techniques
 
 Now, Module 2 will reveal how modern transformer-based LLMs dramatically extend these foundations to create vastly more powerful language processing systems.
 
+## What You'll Discover
+
+This module answers the fundamental question: **How do transformers work as generative search engines that can understand and produce human language?**
+
+Through this exploration, you'll uncover:
+- Why transformers revolutionized language processing
+- How attention mechanisms enable dynamic focus on relevant information
+- Why "bigger is better" follows predictable mathematical laws
+- How raw text prediction transforms into helpful AI assistants
+
+### The Generative Search Engine Analogy
+
+Throughout this module, we'll use the concept of transformers as "generative search engines" - systems that:
+1. **Search** through internal knowledge (unlike Google searching the web)
+2. **Generate** new content (not just retrieve existing text)
+3. **Scale** efficiently to massive sizes
+
+This mental model will help you understand how each component contributes to the transformer's remarkable capabilities.
+
 ## Learning for Different Audiences
 
-This module is designed to serve three distinct audiences with varying backgrounds:
+This module continues our three-tier approach to serve different backgrounds:
 
 ### For Non-CS Readers
-If you're new to computer science or just want to understand the key concepts:
 - Focus on the "Core Concepts" sections in each session
-- Pay special attention to the everyday analogies
-- Use the visual resources to build intuition
-- Skip the implementation details and mathematical derivations
+- Pay special attention to analogies and visualizations
+- Skip implementation details and mathematical derivations
+- You'll gain intuitive understanding of how transformers work
 
 ### For CS Students
-If you have a computer science background and want hands-on experience:
 - Complete both "Core Concepts" and "Hands-On Implementation" sections
-- Work through the PyTorch code examples
-- Implement the practice exercises to reinforce your understanding
-- Experiment with the provided implementations
+- Work through PyTorch code examples
+- Implement practice exercises
+- You'll gain practical skills for working with transformers
 
 ### For Advanced Learners
-If you're looking for deeper insights and connections:
 - Explore all sections, including "Advanced Theory"
-- Dive into the mathematical formulations
-- Review the recommended research papers
-- Challenge yourself with extended implementation tasks
+- Dive into mathematical formulations and research papers
+- Connect concepts to broader machine learning theory
+- You'll gain deep theoretical understanding
 
 ## Learning Objectives
 
-By the end of this module, you should be able to:
+By the end of this module, you will be able to:
 
-- Understand how transformers process text using tokens rather than words
-- Explain how position information is preserved in parallel processing
-- Recognize how feed-forward networks store factual knowledge
-- Comprehend attention mechanisms and their role in finding relevant context
-- Describe how transformer blocks are structured and stacked
-- Understand how residual connections enable deeper architectures
-- Explain the modern LLM training process from pre-training to fine-tuning
+- Explain how transformers work using the generative search engine analogy
+- Understand how tokenization handles the long tail of language
+- Describe how attention mechanisms find relevant information dynamically
+- Explain why transformers use position embeddings
+- Understand how feed-forward networks store knowledge
+- Comprehend the transformer block architecture
+- Explain why depth enables scale in neural networks
+- Understand the pre-training and fine-tuning process
+- Grasp the concept of scaling laws in language models
 
 ## Sessions
 
-### [Session 2.1: Tokens and Positions in Transformer Models](./s2.1-prompt.md)
+### [Session 2.0: The Big Picture - Transformers as Generative Search Engines](./s2.0-prompt.md)
 
-Discover how modern LLMs efficiently handle language through subword tokenization rather than word-level processing, and how they preserve positional information despite parallel processing.
-
-**Key Concepts:**
-- Power laws in language and subword tokenization
-- Position embeddings and sequence information
-- Combining tokens and positions
-
-### [Session 2.2: Building a Transformer Block: Attention and Knowledge Storage](./s2.2-prompt.md)
-
-Explore the revolutionary attention mechanism that allows tokens to find relevant context across sequences, and see how transformer blocks combine attention with feed-forward networks for knowledge storage.
+Discover the revolutionary idea behind transformers: treating language processing as a generative search problem. This conceptual overview sets the foundation for understanding all technical details that follow.
 
 **Key Concepts:**
-- Feed-forward networks as knowledge stores
-- Self-attention mechanisms for finding context
-- Multi-head attention for capturing different relationships
-- The transformer block architecture
+- The generative search engine analogy
+- Attention as automatic keyword detection
+- Feed-forward networks as knowledge libraries
+- Going deeper: The power of stacking
 
-### [Session 2.3: Scaling and Training Modern LLMs](./s2.3-prompt.md)
+### [Session 2.1: From Text to Transformer Inputs](./s2.1-prompt.md)
 
-Learn how transformer models are scaled to unprecedented sizes, trained on massive datasets, and fine-tuned to become helpful assistants.
+Learn how transformers convert raw text into processable inputs and why we need sophisticated knowledge storage and selection mechanisms.
 
 **Key Concepts:**
-- Residual connections for deep networks
-- Pre-training objectives and scaling laws
-- From pre-training to supervised fine-tuning
-- Computational challenges in LLM training
+- Tokenization and the long tail of language
+- Feed-forward networks as knowledge repositories
+- The selection problem: Why simple concatenation isn't enough
+
+### [Session 2.2: Attention and the Transformer Block](./s2.2-prompt.md)
+
+Explore the revolutionary attention mechanism and how all components integrate into the complete transformer block.
+
+**Key Concepts:**
+- Self-attention as dynamic selection
+- Position embeddings for order preservation
+- Multi-head attention for multiple perspectives
+- The complete transformer block architecture
+- Residual connections and going deeper
+
+### [Session 2.3: Training and Scaling Modern LLMs](./s2.3-prompt.md)
+
+Understand how transformers are trained on massive scales and transformed from text predictors into helpful assistants.
+
+**Key Concepts:**
+- Pre-training at scale
+- Scaling laws and power relationships
+- Supervised fine-tuning
+- Computational challenges and solutions
+- Alternative architectures (optional)
+
+## Connection to Other Modules
+
+### Building on Module 1
+Module 2 extends the foundational concepts from Module 1:
+- Next-token prediction remains central but enables emergent capabilities at scale
+- Word embeddings evolve into tokenized representations with position information
+- Bengio's fixed concatenation is replaced by dynamic attention mechanisms
+- Simple neural networks develop into sophisticated transformer blocks
+
+### Looking Ahead to Module 3
+After completing Module 2, you'll be prepared for Module 3, which explores:
+- How models develop reasoning capabilities
+- Reinforcement Learning from Human Feedback (RLHF)
+- Alignment with human values and intentions
+- Advanced capabilities and limitations
 
 ## Navigation and Learning Support
 
@@ -94,47 +140,30 @@ Throughout your learning journey, use these commands to customize your experienc
 - Say "math" to see mathematical formulations
 - Say "paper" to explore relevant academic references
 
-### Visual Resources
-Each session includes visual aids to help you understand complex concepts:
-- Diagrams of transformer architecture components
-- Visualizations of attention patterns
-- Illustrations of training processes
-- Charts showing scaling relationships
+### Module Resources
+- **Visualizations**: Diagrams of attention patterns and transformer architecture
+- **Code Examples**: PyTorch implementations of key components
+- **Research Papers**: Links to foundational transformer papers
+- **Practice Exercises**: Hands-on coding challenges
 
-### Hands-On Components
-For CS students, each session provides:
-- PyTorch implementations of key components
-- Code examples that you can run and modify
-- Practice exercises to reinforce learning
-- Implementation challenges to extend your understanding
+## Key Themes Throughout Module 2
 
-## Connection to Module 1 and Preview of Module 3
+As you progress through this module, watch for these recurring themes:
 
-### Building on Module 1
-Module 2 extends the foundational concepts from Module 1:
-- The next-token prediction objective remains central but enables more complex emergent capabilities
-- Word embeddings evolve into tokenized representations with position information
-- Sequential processing is replaced by parallel attention mechanisms
-- Simple neural networks develop into sophisticated transformer blocks
+1. **Simplicity Enables Scale**: The transformer's uniform architecture allows massive scaling
+2. **Dynamic Selection**: Attention replaces fixed processing with adaptive focus
+3. **Knowledge Through Computation**: Information is stored in weights and retrieved through calculation
+4. **Predictable Improvement**: Scaling laws govern the relationship between size and capability
+5. **Engineering Meets Theory**: Practical solutions enable theoretical insights to work at scale
 
-### Looking Ahead to Module 3
-After completing Module 2, you'll be prepared for Module 3, which explores:
-- How models develop reasoning capabilities
-- Reinforcement Learning from Human Feedback (RLHF)
-- Alignment with human values and intentions
-- Advanced capabilities and limitations
+## Tips for Success
 
-## Using this Module Effectively
+1. **Start with Session 2.0** for the conceptual overview before diving into technical details
+2. **Don't skip analogies** - they provide crucial intuition for complex concepts
+3. **Experiment with code** if you're a CS student - implementation deepens understanding
+4. **Connect concepts** across sessions - transformers are an integrated system
+5. **Reflect on the journey** from Module 1's simple models to Module 2's sophisticated architecture
 
-1. **Start with Session 2.1** and progress sequentially through the sessions
-2. **Match the content to your background**:
-   - If you're a non-CS reader, focus on Core Concepts
-   - If you're a CS student, include the Hands-On Implementation sections
-   - If you're seeking advanced understanding, explore the Advanced Theory sections
-3. **Use the navigation commands** to customize depth based on your interests
-4. **Complete the reflection activities** at the end of each session
-5. **Review the post-prompt evaluation** after each session to track your learning
+Remember, the goal is not just to understand transformers technically, but to develop intuition for why they work so well for language processing.
 
-Remember, the goal of this module is not just to understand transformer architecture technically, but to build an intuitive understanding of how these systems work and why they're so powerful for language processing.
-
-Let's begin exploring the fascinating world of transformer-based language models!
+Let's begin exploring the architecture that powers modern AI language systems!
