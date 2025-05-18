@@ -1,5 +1,3 @@
-You're right - the description of the special structure in Module 3's README refers to Session 3.4, but the formatting doesn't match the other session links. Let me correct that:
-
 # Module 3: Reasoning and Alignment in Large Models
 
 ## Introduction
