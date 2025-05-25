@@ -25,9 +25,10 @@ Module 2:
 - Session 2.3: Training and Scaling Modern LLMs
 
 Module 3:
+- Session 3.0: Beyond Prediction - Learning Without Labels
 - Session 3.1: The Alignment Problem and RLHF
 - Session 3.2: Reasoning in Large Language Models
-- Session 3.3: Advanced Capabilities and Limitations
+- Session 3.3: From Prediction to Reasoning - The Complete Journey
 - Session 3.4: Philosophical Perspectives on AI Understanding
 
 When teaching any session, ALL sessions that precede it in this sequence are considered "previous sessions" that the student has completed, and all knowledge points from those sessions can be assumed as prior knowledge.
@@ -441,6 +442,12 @@ This glossary lists all Knowledge Points (KPs) across the curriculum with their 
 
 ### Module 3: Reasoning and Alignment in Large Models
 
+#### Session 3.0: Beyond Prediction - Learning Without Labels
+1. **(C)** The fundamental limitation: When prediction isn't enough
+2. **(C)** Learning from outcomes: The essence of reinforcement learning
+3. **(C)** Two applications: Teaching values and teaching reasoning
+4. **(C)** Preview: How RL transforms language models
+
 #### Session 3.1: The Alignment Problem and RLHF
 1. **(C/T)** The alignment problem: Why prediction is not enough
 2. **(C/T)** Reinforcement learning: Learning from outcomes
@@ -453,7 +460,7 @@ This glossary lists all Knowledge Points (KPs) across the curriculum with their 
 3. **(C/I/T)** Test-time computation: Dynamic reasoning during inference
 4. **(C/I/T)** Learning to reason: How models are trained to think step by step
 
-#### Session 3.3: Advanced Capabilities and Limitations
+#### Session 3.3: From Prediction to Reasoning - The Complete Journey
 1. **(C/T)** The evolution of prediction: From n-grams to neural reasoning
 2. **(C/T)** Core machine learning foundations across the LLM stack
 3. **(C)** The future frontier: Balancing capabilities with alignment
