@@ -70,15 +70,21 @@ By the end of this module, you will be able to:
 
 ## Sessions
 
-### [Session 2.0: The Big Picture - Transformers as Generative Search Engines](./s2.0-prompt.md)
+### [Session 2.0: The Complete Picture - What Are Transformer LLMs?](./s2.0-prompt.md)
 
-Discover the revolutionary idea behind transformers: treating language processing as a generative search problem. This conceptual overview sets the foundation for understanding all technical details that follow.
+**The Essential Overview**: This session gives you the complete conceptual understanding of transformers. Perfect for time-constrained learners who want maximum insight into what transformer LLMs are and how they work.
 
 **Key Concepts:**
-- The generative search engine analogy
-- Attention as automatic keyword detection
-- Feed-forward networks as knowledge libraries
-- Going deeper: The power of stacking
+- The generative search engine revolution: What makes LLMs fundamentally different
+- The evolution story: How we solved the scaling problem from Bengio to modern LLMs  
+- The key innovations: Understanding attention, knowledge storage, and deep stacking
+- Your learning journey: What you'll discover in the technical deep-dives ahead
+
+**Interactive Visualizations:**
+- Search Engine vs Generative Search comparison
+- Architecture Evolution from Bengio to 3-Layer Transformer
+
+*Pedagogical Note: We present transformers in conceptual order (problem → solution) rather than historical order for maximum clarity.*
 
 ### [Session 2.1: From Text to Transformer Inputs](./s2.1-prompt.md)
 
@@ -141,7 +147,7 @@ Throughout your learning journey, use these commands to customize your experienc
 - Say "paper" to explore relevant academic references
 
 ### Module Resources
-- **Visualizations**: Diagrams of attention patterns and transformer architecture
+- **Visualizations**: Interactive demonstrations of attention patterns and transformer architecture
 - **Code Examples**: PyTorch implementations of key components
 - **Research Papers**: Links to foundational transformer papers
 - **Practice Exercises**: Hands-on coding challenges
@@ -156,6 +162,25 @@ As you progress through this module, watch for these recurring themes:
 4. **Predictable Improvement**: Scaling laws govern the relationship between size and capability
 5. **Engineering Meets Theory**: Practical solutions enable theoretical insights to work at scale
 
+## Recommended Learning Paths
+
+### Time-Constrained Path (2-3 hours)
+1. **Start with Session 2.0** - Get the complete conceptual picture
+2. **Optional deep-dive**: Pick one technical session (2.1, 2.2, or 2.3) based on your interests
+
+### Comprehensive Path (8-12 hours)
+1. **Session 2.0** - Complete conceptual foundation
+2. **Session 2.1** - Text processing and knowledge storage
+3. **Session 2.2** - Attention mechanisms and architecture
+4. **Session 2.3** - Training and scaling
+5. **Practice exercises** - Implement key components
+
+### Technical Implementation Path (15+ hours)
+- Complete all sessions with full implementation sections
+- Work through all PyTorch code examples
+- Complete practice exercises and extend them
+- Explore research papers and advanced theory sections
+
 ## Tips for Success
 
 1. **Start with Session 2.0** for the conceptual overview before diving into technical details
@@ -164,6 +189,6 @@ As you progress through this module, watch for these recurring themes:
 4. **Connect concepts** across sessions - transformers are an integrated system
 5. **Reflect on the journey** from Module 1's simple models to Module 2's sophisticated architecture
 
-Remember, the goal is not just to understand transformers technically, but to develop intuition for why they work so well for language processing.
+Remember, the goal is not just to understand transformers technically, but to develop intuition for why they work so well for language processing and why they've become the foundation of modern AI systems.
 
 Let's begin exploring the architecture that powers modern AI language systems!
