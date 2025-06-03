@@ -230,3 +230,9 @@ One unique feature of LLM4LLM is the ability to learn about language models in y
 * To learn in French: type "Veuillez enseigner ce cours en français"
 
 The LLM will automatically adapt and provide all explanations, examples, and interactions in your requested language, making this learning experience accessible across language barriers.
+
+## 🎮 Interactive Visual Companion Site
+
+**Explore the course with hands-on visualizations:** https://zzhang-cn.github.io/LLM4LLM/
+
+This companion site features 37+ interactive demonstrations that bring the concepts to life, from basic word prediction to transformer attention mechanisms and reasoning capabilities.
